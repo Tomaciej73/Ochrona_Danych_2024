@@ -1,0 +1,20 @@
+1. Największe szkody przeprowadzone cyberatakiem NotPetya zostały przeprowadzone:
+
+A. w Rosji
+B. w Polsce
+C. na Ukrainie
+D. w Danii
+
+2. Czym był cyberatak NotPetya ?
+
+A. Było to szkodliwe oprogramowanie, które szyfrowało pliki ofiary i szantażowało ofiarę do okupu.
+B. Był to zwykły cyberatak mający charakter humorystyczny.
+C. Było to szkodliwe oprogramowanie, które szyfrowało pliki ofiary i szantażowało ofiarę do okupu, ale po opłaceniu pliki zostały usunięte. 
+D. Było to szkodliwe oprogramowanie spowalniające komputer, ale możliwe do usunięcia w czasie pracy zainfekowanego komputera.
+
+3. Jak się zabezpieczyć przed cyberatakiem ?
+
+A. Używać tylko jednego i silnego hasła do wszystkich kont.
+B. Używać wyłącznie antywirusa i tylko na nim polegać.
+C. Używać weryfikacji dwuetapowej.
+D. Zacząć używać systemu operacyjnego Linux, bo na Linuxie nie istnieją wirusy.
