@@ -1,3 +1,3 @@
-# Ochrona_Danych_2024  
-Karkulowski Tomasz 163105  
-Prowadzący: **Yakovyna Vitaliy**
+# Prezentacja na temat:  
+- Historia i dokładny opis wybranego ataku NotPetya
+
