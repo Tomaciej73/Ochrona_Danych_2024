@@ -1,1 +1,2 @@
-# Pytania oraz Odpowiedzi Gr1 i Gr2
+# Pytania oraz Odpowiedzi  
+## Grupa 1 i Grupa 2  
