@@ -131,6 +131,8 @@ def rozszyfruj_szyfr_cezara(szyfrogram, liczba_najlepszych=5):
     wyniki.sort()
     return wyniki[:liczba_najlepszych]
 
+'''================================================================================================='''
+
 def lamanieCezar():
     szyfrogram = input("Wprowadź tekst zaszyfrowany szyfrem Cezara: ")
     liczba_najlepszych = input("Ile najbardziej prawdopodobnych kombinacji wyświetlić (1-10): ")
@@ -151,8 +153,7 @@ def lamanieCezar():
 
 def cezar():
     tekst = input("Wprowadź tekst do zaszyfrowania: ")
-    liczba = 163105  # zmień indeks na swój
-    klucz = liczba % 26
+    klucz = int(input("Podaj klucz (liczba przesunięć 1-25): "))
 
     print(f"\nUżyty klucz: {klucz}")
 
@@ -177,14 +178,9 @@ def cezar():
 
 def vigenere():
     tekst = input("Wprowadź tekst do zaszyfrowania: ")
-    liczba = 163105  # zmień indeks na swój
-    klucz_num = liczba % 26
+    klucz = input("Podaj klucz (ciąg znaków): ")
 
-    klucz_znak = chr(klucz_num + ord('A'))
-    klucz_podstawowy = klucz_znak * len(tekst)
-    klucz = klucz_podstawowy
-
-    print(f"\nUżyty klucz: {klucz_podstawowy}")
+    print(f"\nUżyty klucz: {klucz}")
 
     naglowek = "|"
     for znak in tekst:
@@ -203,6 +199,12 @@ def vigenere():
     print(f"Odszyfrowany tekst: {odszyfrowany_tekst}")
 
 if __name__ == "__main__":
-    #cezar()
-    #vigenere()
-    lamanieCezar()
+    wybor = input("Wybierz szyfr: \n1 - Caesar, \n2 - Vigenere, \n3 - Lamanie hasla Cezar\n")
+    if wybor == "1":
+        cezar()
+    elif wybor == "2":
+        vigenere()
+    elif wybor == "3":
+        lamanieCezar()
+    else:
+        print("Nieprawidłowy wybór.")
