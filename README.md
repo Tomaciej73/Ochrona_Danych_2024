@@ -1,3 +1,2 @@
-# Ochrona Danych 2024  
-Karkulowski Tomasz 163105  
-Prowadzący: **Marcin Młyński**
+# Projekt 2024  
+Przeprowadzenie ataku brute force na maszynę wirtualną za pomocą xHydra
